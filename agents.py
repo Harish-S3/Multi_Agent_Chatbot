@@ -8,7 +8,7 @@ import random
 from sympy import sympify  # Safe math evaluation
 
 # Load API Key Securely
-os.environ['GOOGLE_API_KEY'] = st.secrets["AIzaSyBzovUvxbHB7sF09ivq_wLM-g6tB3bOOsg"]
+os.environ['GOOGLE_API_KEY'] = st.secrets["GOOGLE_API_KEY"]
 
 # Initialize Model
 model = ChatGoogleGenerativeAI(model="gemini-1.5-flash-002")
